@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UrbanThreads | Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">URBANTHREADS</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="contact.html">Contact</a>
+            <a href="cart.html">Cart (<span id="cartCount">0</span>)</a>
+        </nav>
+    </header>
+
+    <main class="shop-container">
+        <!-- Market Price Update Section (required for criteria 3) -->
+    <div class="market-section">
+    <div class="market-text">
+        <h3>Live Market Pricing</h3>
+        <p>Our prices adjust in real time based on global textile market rates. Click below to refresh all prices with the latest market multiplier.</p>
+        <button id="updateMarketBtn" class="btn market-btn">Update Prices</button>
+    </div>
+</div>
+
+        <div class="toolbar">
+            <input type="text" id="searchInput" placeholder="Search products..." class="search-box">
+        </div>
+
+        <h2>All Clothing</h2>
+        <div id="productsGrid" class="products-grid">
+            <p>Loading products...</p>
+        </div>
+
+<div class="cart-summary">
+    <h3>Shopping Cart</h3>
+    <div id="cartSummary" class="cart-items-summary"></div>
+    <div class="cart-summary-footer">
+        <span class="cart-total-preview">Total: <span id="cartPreviewTotal">€0.00</span></span>
+        <a href="cart.html" class="cart-link">Go to Cart →</a>
+    </div>
+</div>
+
+    </main>
+
+    <footer>
+        <p>© 2026 UrbanThreads – Built with Node.js + MySQL</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
