@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UrbanThreads | Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">URBANTHREADS</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="contact.html">Contact</a>
+            <a href="cart.html">Cart (<span id="cartCount">0</span>)</a>
+        </nav>
+    </header>
+
+    <main>
+    <section class="hero" style="background-image: url('images/16.jpg'); background-size: cover; background-position: center;">
+    <div class="hero-overlay">
+        <h1>Minimalist. Functional. Timeless.</h1>
+        <p>Discover your new wardrobe – crafted for comfort and style.</p>
+        <a href="shop.html" class="btn">Shop Now →</a>
+    </div>
+    </section>
+        <section class="featured-products">
+            <h2>Featured Collection</h2>
+            <div id="featuredProductsGrid" class="products-grid">
+                <p>Loading products...</p>
+            </div>
+            <div class="view-all-container">
+                <a href="shop.html" class="btn view-all-btn">View All Products →</a>
+            </div>
+        </section>
+
+        <section class="promo-banner">
+    <div class="promo-content">
+        <h3>Limited Edition Drop</h3>
+        <p>New arrivals – up to 30% off</p>
+        <a href="shop.html" class="btn small-btn">Shop Sale</a>
+    </div>
+</section>
+
+        <section class="about-us">
+            <div class="about-content">
+                <h2>About UrbanThreads</h2>
+                <p>UrbanThreads was born from a desire to create clothing that balances comfort, durability, and timeless design.</p>
+                <p>Every stitch is a commitment to quality. Join us in redefining modern essentials.</p>
+            </div>
+            <div class="about-image"></div>
+        </section>
+
+        <section class="testimonials">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card"><p>"The quality is unmatched."</p><span>- Sarah M.</span></div>
+                <div class="testimonial-card"><p>"Fast shipping, incredibly soft."</p><span>- James K.</span></div>
+                <div class="testimonial-card"><p>"Finally a brand that fits well."</p><span>- Elena R.</span></div>
+            </div>
+        </section>
+
+        <section class="connect">
+            <h2>Stay in Touch</h2>
+            <p>Subscribe for exclusive offers.</p>
+            <form id="newsletterForm">
+                <input type="email" id="newsletterEmail" placeholder="Your email address" required>
+                <button type="submit" class="btn">Subscribe</button>
+            </form>
+            <div id="newsletterFeedback"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 UrbanThreads – Built with Node.js + MySQL</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
